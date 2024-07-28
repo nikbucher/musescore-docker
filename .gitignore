@@ -1,0 +1,11 @@
+.*
+
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.gitlab-ci.yml
+
+# IntelliJ
+*.iws
+*.iml
+*.ipr
