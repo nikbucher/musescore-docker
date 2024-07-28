@@ -8,8 +8,8 @@ To build the Docker image, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/MuseScore-Docker.git
-    cd MuseScore-Docker
+    git clone https://github.com/nikbucher/musescore-docker.git
+    cd musescore-docker
     ```
 
 2. Build the Docker image:
