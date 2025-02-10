@@ -1,8 +1,10 @@
-FROM archlinux:latest
+FROM archlinux/archlinux:latest
 
-# update
+# Update system packages
 RUN pacman -Syyu --noconfirm
 
-RUN pacman -U --noconfirm https://archive.archlinux.org/packages/m/musescore/musescore-4.3.2-1-x86_64.pkg.tar.zst
+# Install MuseScore
+RUN pacman -U --noconfirm https://archive.archlinux.org/packages/m/musescore/musescore-4.4.4-4-x86_64.pkg.tar.zst
 
+# Set environment variable to run MuseScore in headless mode
 ENV QT_QPA_PLATFORM=offscreen
